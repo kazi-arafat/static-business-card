@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 550px;
+    background: #23252C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section--info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.section--info--banner{
+    width: 317px;
+    height: 317px;
+    padding-bottom: 8%;
+}
+
+.section--info--clientName{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.section--info--clientRole{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    color: #F3BF99;
+}
+
+.section--info--clientWebsite{
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #F5F5F5;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.section--info--clientContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.section--info--clientContact > button{
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+    width: 40%;
+}
+
+.section--info--clientContact--email{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    margin-right: 2%;
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+    width: 40%;
+}
+.section--info--clientContact--LkIn{
+    background: #5093E2;
+    margin-left: 2%;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+    width: 40%;
+    
+}
+
+section{
+    background-color: #1A1B21;
+    width: 317px;
+    padding-block-end: 5%;
+    color: white;
+}
+
+.section--about, .section--interest{
+    padding-left: 5%;
+}
+
+.section--about--heading, .section--interest--heading{
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    color: #F5F5F5;
+    line-height: 150%;
+    
+}
+
+.section--about--description, .section--interest--description{
+    font-size: 10.24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+
+
+
+
+footer{
+    background-color: #161619;
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer--social{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6%;
+}
+
